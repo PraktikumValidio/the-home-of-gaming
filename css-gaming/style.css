@@ -1,0 +1,276 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+header{
+	text-align: center;
+	background-color: darkviolet;
+	padding-bottom: 50px;
+	font-family: 'Press Start 2P', cursive;
+	text-transform: uppercase;
+
+}
+header h1.homepage{
+	color: whitesmoke;
+	padding-top: 30px;
+
+}
+
+header img.homepage{
+	border-radius: 170px;
+	width: 300px;
+	border: 10px solid white;
+	margin: 20px;
+
+
+}
+
+header h1.games{
+	color: whitesmoke;
+	padding-top: 30px;
+}
+
+header img.games{
+	border-radius: 150px;
+	border: 10px solid white;
+	width: 300px;
+	margin: 20px;
+
+}
+
+h2.im-here-for{
+	text-align: left;
+	padding-left: 25px;
+	font-family: 'Press Start 2P', cursive;
+	color: darkviolet;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+
+p.welcome{
+	text-align: center;
+	font-size: 25px;
+	font-family: monserat;
+	color: darkviolet;
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 40px;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+p.hey-there{
+	color: darkviolet;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	font-family: monserat;
+	font-weight: bolder;
+	line height: 40px;
+	padding: 50px 0px;
+	letter-spacing: 2px;
+}
+ul.popular-games{
+	text-align: left;
+	padding-left: 150px;
+	margin: 20px 0px;
+	color: darkviolet;
+	line-height: 40px;
+	
+}
+a.popular-games{
+	text-decoration: none;
+	text-align: left;
+	margin: 20px 0px;
+	color: darkviolet;
+	line-height: 40px;
+	font-family: monserat;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+p.hall-of-fame-2{
+	color: darkviolet;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	font-family: monserat;
+	font-weight: bolder;
+	line height: 40px;
+	padding: 50px 0px;
+	letter-spacing: 2px;
+}
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-family: 'Press Start 2P', cursive;
+	background-color: darkviolet;
+}
+
+
+.nav-links{
+	display: flex;
+	width: 55%;
+    justify-content: space-around;
+}
+
+.nav-links li{
+	list-style: none;
+}
+
+.nav-links a{
+	color: whitesmoke;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+a:hover{
+	color: orangered;
+}
+
+.burger{
+	display: none;
+	cursor: pointer;
+}
+
+.burger div{
+	width: 25px;
+	height: 4px;
+	background-color: whitesmoke;
+	margin: 5px;
+	transition: all 0.3s ease;
+}
+
+@media screen and (max-width: 1024px){
+	.nav-links{
+		width: 75%;
+	}
+	p.welcome{
+		text-align: center;
+		width: 100%;
+		padding: 5px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	body{
+		overflow-x: hidden;
+	}
+	.nav-links{
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: darkviolet;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		padding-top: 40px;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+	}
+	.nav-links li{
+		opacity: 0;
+	}
+	.burger{
+		display: block;
+	}
+	p.welcome{
+		text-align: center;
+		width: 100%;
+		padding: 5px;
+	}
+}
+
+.nav-active{
+	transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px)
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px,6px);
+
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px,-6px);
+}
+
+
+
+
+footer{
+	text-align: left;
+	text-decoration: none;
+	padding-left: 50px;
+	background-color: darkviolet;
+	color: whitesmoke;
+	font-family: monserat;
+	font-size: 15px;
+}
+footer a{
+	color: whitesmoke;
+	text-decoration: none [me];
+}
+
+header{
+	text-align: center;
+	background-color: darkviolet;
+	padding-bottom: 50px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+table.hall-of-fame{
+	width: 100%;
+	font-family: monserat;
+	font-size: 25px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+th.hall-of-fame{
+	text-align: left;
+	font-weight: bolder;
+	color: darkviolet;
+}
+
+table, th, td.hall-of-fame{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th, td.hall-of-fame{
+	padding: 10px;
+}
+caption.hall-of-fame{
+	color: darkviolet;
+	padding: 20px;
+	font-family: 'Press Start 2P', cursive;
+}
+
+table tr th,td a{
+	color: black;
+}
