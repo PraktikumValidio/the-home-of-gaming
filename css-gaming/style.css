@@ -244,11 +244,16 @@ header{
 }
 
 table.hall-of-fame{
-	width: 100%;
+	width: 75%;
 	font-family: monserat;
 	font-size: 25px;
 	font-weight: bold;
 	margin-top: 20px;
+}
+div.hall-of-fame{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 th.hall-of-fame{
@@ -294,6 +299,7 @@ h2.clips{
 	text-align: center;
 	color: darkviolet;
 
+
 }
 div iframe.preview-clips-1{
 	/* Stylistic */
@@ -304,7 +310,7 @@ div iframe.preview-clips-1{
 	border: solid 2px darkviolet;
 	font-family: monserat;
 	font-weight: bold;
-	margin-top: 100px;
+	margin-top: 40px;
 	font-size: 18px;
 
 	display: flex;
@@ -314,5 +320,49 @@ div iframe.preview-clips-1{
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, 0);
+}
+div iframe.preview-clips-2{
+	/* Stylistic */
+	width: 50%;
+	height: 50%;
+	box-sizing: border-box;
+	text-align: center;
+	border: solid 2px darkviolet;
+	font-family: monserat;
+	font-weight: bold;
+	margin-top: 40px;
+	font-size: 18px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: absolute;
+	right: 50%;
+	transform: translate(50%, 100%);
+
+}
+
+p.clips{
+	padding: 40px;
+	color: darkviolet;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	font-family: monserat;
+	font-weight: bolder;
+	line height: 40px;
+	letter-spacing: 2px;
+
+}
+
+p.sorry{
+
+	color: darkviolet;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	padding: 40px;
 }
 
