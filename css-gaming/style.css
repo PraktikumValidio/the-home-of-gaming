@@ -10,11 +10,13 @@ header{
 	padding-bottom: 50px;
 	font-family: 'Press Start 2P', cursive;
 	text-transform: uppercase;
+	letter-spacing: 10px;
 
 }
 header h1.homepage{
 	color: whitesmoke;
 	padding-top: 30px;
+	
 
 }
 
@@ -27,18 +29,6 @@ header img.homepage{
 
 }
 
-header h1.games{
-	color: whitesmoke;
-	padding-top: 30px;
-}
-
-header img.games{
-	border-radius: 150px;
-	border: 10px solid white;
-	width: 300px;
-	margin: 20px;
-
-}
 
 h2.im-here-for{
 	text-align: left;
@@ -168,7 +158,7 @@ a:hover{
 		position: absolute;
 		right: 0px;
 		height: 92vh;
-		top: 8vh;
+		top: 0px;
 		background-color: darkviolet;
 		display: flex;
 		flex-direction: column;
@@ -304,7 +294,6 @@ h2.clips{
 div iframe.preview-clips-1{
 	/* Stylistic */
 	width: 50%;
-	height: 50%;
 	box-sizing: border-box;
 	text-align: center;
 	border: solid 2px darkviolet;
@@ -317,29 +306,10 @@ div iframe.preview-clips-1{
 	align-items: center;
 	justify-content: center;
 
-	position: absolute;
+	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0);
 }
-div iframe.preview-clips-2{
-	/* Stylistic */
-	width: 50%;
-	height: 50%;
-	box-sizing: border-box;
-	text-align: center;
-	border: solid 2px darkviolet;
-	font-family: monserat;
-	font-weight: bold;
-	margin-top: 40px;
-	font-size: 18px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	position: absolute;
-	right: 50%;
-	transform: translate(50%, 100%);
 
 }
 
