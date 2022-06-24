@@ -282,7 +282,7 @@ p{
 	text-align: center;
 }
 h2.clips{
-	padding: 50px;
+	margin-top: 150px;
 	font-size: 20px;
 	font-weight: bold;
 	font-family: 'Press Start 2P', cursive;
@@ -314,7 +314,7 @@ div iframe.preview-clips-1{
 }
 
 p.clips{
-	padding: 40px;
+	padding: 20px;
 	color: darkviolet;
 	text-align: center;
 	width: 100%;
